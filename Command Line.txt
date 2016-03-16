@@ -1,0 +1,33 @@
+Basic commands:
+- date : gives us today's date
+- ls : gives us a list of the contents in a specific directory
+	-ls -lA : lists hidden files
+- pwd : prints the exact path of a directory
+- cd : changes directory
+	- cd . : represents the directory I am in
+	- cd .. : represents the parent directory
+- touch : creates a new empty file
+- mkdir : creates a new directory
+- rmdir : removes a directory (only if it is empty)
+- rm : removes a file
+	- -r : recursively, it does what the command before it says
+		Example:
+					- rm -r removes all the files in a directory as well as the directory 
+					itself
+	- -i : asks for confirmation to remove a file
+	- -f : removes any file, even "write protected" ones
+- cp : it copies a file. It takes to parmeters: file to be copied and new file to be created
+- mv : moves files and also renames files. It takes to parameters : file to be moved and where to move it
+	   if we don't provide destination, it will simply rename the file
+- cat : concatenates/combines files. Also prints on the screen what a   		file contents.
+- head/tail : they show the first or last lines on a file
+- directories with +1 word: Calibre Library => Calibre\ Library
+- find : finds specific files
+- grep : look into files for specific stff (it's like find but inside files)
+- cd ~/Music find . -name *.mp3 -print > myMusic.txt
+	with this we can : "find" in "." a mp3 file whose "-name" would be"*", ""-print" it and then create ">" a txt file with the info!
+- grep ??
+- chmod : change permissions in a file (read, write, excecute...) from 			a class(user, group, all)
+-echo : it can be used to shave short strings into a file
+		example: echo "Hello, world" > hello.txt
+
